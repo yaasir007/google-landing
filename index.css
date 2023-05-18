@@ -34,3 +34,42 @@ body {
   height: auto;
   border-radius: 50%;
 }
+
+.google-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: white; */
+  height: 75vh;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #181818;
+}
+
+.location {
+  padding: 1.5rem;
+  font-family: var(--fontF);
+}
+
+.link-items {
+  border-top: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  font-family: var(--fontF);
+}
+
+.items > a,
+.cookies > a {
+  text-decoration: none;
+}
+
+.items, .cookies {
+  display: flex;
+  gap: 1rem;
+}
