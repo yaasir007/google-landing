@@ -133,3 +133,13 @@ body {
   font-size: var(--fontS);
   margin-inline: 2rem;
 }
+
+@media screen and (max-width: 690px){
+  .link-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
